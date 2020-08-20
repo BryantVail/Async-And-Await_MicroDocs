@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AsyncAwait_Overview/1.0.0": {
+        "dependencies": {
+          "Breakfast.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AsyncAwait_Overview.dll": {}
+        }
+      },
+      "Breakfast.Domain/1.0.0": {
+        "runtime": {
+          "Breakfast.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AsyncAwait_Overview/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Breakfast.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Breakfast.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Breakfast.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Breakfast.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Breakfast.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Breakfast.Domain/Breakfast.Domain.csproj",
+      "msbuildProject": "../Breakfast.Domain/Breakfast.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Breakfast.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\bvail\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\AsyncAwait_Overview\\AsyncAwait_Overview.csproj",
+      "projectName": "AsyncAwait_Overview",
+      "projectPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\AsyncAwait_Overview\\AsyncAwait_Overview.csproj",
+      "packagesPath": "C:\\Users\\bvail\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\AsyncAwait_Overview\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\bvail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj": {
+              "projectPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
