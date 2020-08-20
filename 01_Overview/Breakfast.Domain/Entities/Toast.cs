@@ -55,7 +55,7 @@ namespace Breakfast.Domain.Entities
 
         public static async Task<Toast> MakeToastWithButterAndJamAsync(int number)
         {
-            var toast = await Toast.ToastBreadAsync(number);
+            var toast = await Toast.ToastBreadAsync(number).ConfigureAwait(false);
             toast
                 .ApplyButter()
                 .ApplyJam();

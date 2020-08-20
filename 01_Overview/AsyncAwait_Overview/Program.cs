@@ -10,6 +10,8 @@ namespace AsyncAwait_Overview
     {
         static async Task Main(string[] args)
         {
+            var timer = System.Diagnostics.Stopwatch.StartNew();
+
             Coffee cup = Coffee.PourCoffee();
             Console.WriteLine("Coffee is ready");
 
@@ -42,6 +44,11 @@ namespace AsyncAwait_Overview
 
             //Done
             Console.WriteLine("Breakfast is ready!");
+
+            timer.Stop();
+            Console.WriteLine($"Time passed: {timer.ElapsedMilliseconds} milliseconds");
+
+            Console.ReadLine();
         }
 
 
