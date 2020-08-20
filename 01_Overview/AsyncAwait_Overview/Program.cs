@@ -15,17 +15,12 @@ namespace AsyncAwait_Overview
             var eggsTask = Egg.FryEggsAsync(2);
             var baconTask = Bacon.FryBaconAsync(3);
             var toastTask = Toast.MakeToastWithButterAndJamAsync(2);
-            Console.WriteLine("toast is ready");
 
-            var eggs = await eggsTask;
+            Task.WhenAll(eggsTask, baconTask, toastTask);
+            
             Console.WriteLine("eggs are ready");
-
-            var bacon = await baconTask;
             Console.WriteLine("Bacon is ready");
-
-            var toast = await toastTask;
             Console.WriteLine("Toast is ready");
-
 
             Juice oj = Juice.PourOj();
             Console.WriteLine("oj is ready");
