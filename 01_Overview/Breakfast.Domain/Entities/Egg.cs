@@ -21,13 +21,13 @@ namespace Breakfast.Domain.Entities
                     $"{Thread.CurrentThread.ManagedThreadId}");
 
                 Console.WriteLine("Warming the pan...");
-                Task.Delay(3000).GetAwaiter().GetResult();
+                Task.Delay(3000);
 
                 Console.WriteLine($"Cracking {numberOfEggs} eggs");
                 Console.WriteLine("Cooking the eggs");
 
                 // Time Waiting
-                Task.Delay(3000).GetAwaiter().GetResult();
+                Task.Delay(3000);
 
                 return new Egg();
 

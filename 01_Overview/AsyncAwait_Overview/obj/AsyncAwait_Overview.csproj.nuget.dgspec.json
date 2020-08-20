@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\AsyncAwait_Overview\\AsyncAwait_Overview.csproj": {}
+    "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\Async-And-Await_MicroDocs\\01_Overview\\AsyncAwait_Overview\\AsyncAwait_Overview.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\AsyncAwait_Overview\\AsyncAwait_Overview.csproj": {
+    "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\Async-And-Await_MicroDocs\\01_Overview\\AsyncAwait_Overview\\AsyncAwait_Overview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\AsyncAwait_Overview\\AsyncAwait_Overview.csproj",
+        "projectUniqueName": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\Async-And-Await_MicroDocs\\01_Overview\\AsyncAwait_Overview\\AsyncAwait_Overview.csproj",
         "projectName": "AsyncAwait_Overview",
-        "projectPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\AsyncAwait_Overview\\AsyncAwait_Overview.csproj",
+        "projectPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\Async-And-Await_MicroDocs\\01_Overview\\AsyncAwait_Overview\\AsyncAwait_Overview.csproj",
         "packagesPath": "C:\\Users\\bvail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\AsyncAwait_Overview\\obj\\",
+        "outputPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\Async-And-Await_MicroDocs\\01_Overview\\AsyncAwait_Overview\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj": {
-                "projectPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj"
+              "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\Async-And-Await_MicroDocs\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj": {
+                "projectPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\Async-And-Await_MicroDocs\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj": {
+    "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\Async-And-Await_MicroDocs\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\Async-And-Await_MicroDocs\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj",
         "projectName": "Breakfast.Domain",
-        "projectPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj",
+        "projectPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\Async-And-Await_MicroDocs\\01_Overview\\Breakfast.Domain\\Breakfast.Domain.csproj",
         "packagesPath": "C:\\Users\\bvail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\01_Overview\\Breakfast.Domain\\obj\\",
+        "outputPath": "C:\\Users\\bvail\\Documents\\GitHub\\AsyncProgramming_MicrosoftDocs-Tutorial\\Async-And-Await_MicroDocs\\01_Overview\\Breakfast.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

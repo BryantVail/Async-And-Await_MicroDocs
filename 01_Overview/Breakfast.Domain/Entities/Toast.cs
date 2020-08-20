@@ -53,7 +53,7 @@ namespace Breakfast.Domain.Entities
             return this;
         }
 
-        static async Task<Toast> MakeToastWithButterAndJamAsync(int number)
+        public static async Task<Toast> MakeToastWithButterAndJamAsync(int number)
         {
             var toast = await Toast.ToastBreadAsync(number);
             toast

@@ -12,34 +12,23 @@ namespace AsyncAwait_Overview
             Coffee cup = Coffee.PourCoffee();
             Console.WriteLine("Coffee is ready");
 
-            Task<Egg> eggsTask = Egg.FryEggsAsync(2);
-            
-
-            Task<Bacon> baconTask = Bacon.FryBaconAsync(3);
-            
-            // Receive Task for Toast
-            // await Toast Task
-            Task<Toast> toastTask = Toast.ToastBreadAsync(2);
-            Toast toast = await toastTask; // perform 'ToastBreadAsync(2)' task
-            toast
-                .ApplyButter()
-                .ApplyJam();
-
+            var eggsTask = Egg.FryEggsAsync(2);
+            var baconTask = Bacon.FryBaconAsync(3);
+            var toastTask = Toast.MakeToastWithButterAndJamAsync(2);
             Console.WriteLine("toast is ready");
+
+            var eggs = await eggsTask;
+            Console.WriteLine("eggs are ready");
+
+            var bacon = await baconTask;
+            Console.WriteLine("Bacon is ready");
+
+            var toast = await toastTask;
+            Console.WriteLine("Toast is ready");
 
 
             Juice oj = Juice.PourOj();
             Console.WriteLine("oj is ready");
-
-
-            // Collect Tasks
-            Egg eggs = await eggsTask;
-            Console.WriteLine("Eggs are ready");
-
-            Bacon bacon = await baconTask;
-            Console.WriteLine("Bacon is ready");
-
-
 
             //Done
             Console.WriteLine("Breakfast is ready!");
